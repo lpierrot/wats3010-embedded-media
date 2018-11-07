@@ -4,8 +4,26 @@
  *
  * Site Styles
  *****************************************************************************/
+body {
+    background-color: beige;
+    background-color: beige;
+    padding: 20px;
+    font-family: Georgia, Times, serif;
+    font-size: 17px;
+}
+
+h1, h2,h2 {
+    font-size:150%;
+    font-family: Arial, Verdana, sans-serif;
+    text-shadow: 2px 2px 7px #111111;
+}
+
+p {
+    font-size: medium;
+}
+
 aside#social {
-    background: lime;
+    background: rgba(248, 247, 216, 0.2);
     width: 200px;
     height: auto;
     position: fixed;
@@ -33,9 +51,14 @@ header {
     background-size: cover;
     padding: 100px 20px 20px 20px;
 }
+nav ul li {
+    display: inline;
+    border: solid 1px black;
+    padding: 5px; 
+}
 
 footer {
-    background: grey;
+    background: beige;
 }
 
 section {
@@ -46,9 +69,9 @@ section {
 }
 
 section#watch {
-    background: yellow;
+    background: beige;
 }
 
 section#listen {
-    background: cornflowerblue;
+    background: beige;
 }
