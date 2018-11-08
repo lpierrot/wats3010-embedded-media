@@ -4,6 +4,14 @@
  *
  * Site Styles
  *****************************************************************************/
+ html {
+     background-color: beige;
+     font-family: Georgia, Times, serif;
+     font-size: 17px;
+     margin: 0;
+     padding: 0;
+}
+
 body {
     background-color: beige;
     background-color: beige;
@@ -12,14 +20,19 @@ body {
     font-size: 17px;
 }
 
+header {
+    height: 300px;
+    background: url(../img/monkaa_bluemonkey.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px 20px 20px;
+}
+
 h1, h2,h2 {
     font-size:150%;
     font-family: Arial, Verdana, sans-serif;
     text-shadow: 2px 2px 7px #111111;
-}
-
-p {
-    font-size: medium;
 }
 
 aside#social {
@@ -32,6 +45,39 @@ aside#social {
     cursor: pointer;
 }
 
+ul.weybec-people {
+  list-style-type: none;
+  background-color: beige;
+  border: 0px;
+}
+.weybec-people li {
+  background-color: beige;
+}
+
+.weybec-people{
+    width: 100vw;
+    display: inline-block;
+    margin: auto;
+}
+
+.weybec-people li{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4rem;
+    display: block;
+    text-align: center;
+}
+
+.weybec-people img{
+    max-width: 22vw;
+    border: inset black;
+}
+
+.weybec-info{
+    clear: left;
+}
+
 ulsocial-links {
     display: none;
 }
@@ -39,26 +85,11 @@ ulsocial-links {
 aside#social: hover ul.social-links {
     display: block;
 }
- html {
-     margin: 0;
-     padding: 0;
- }
-header {
-    height: 300px;
-    background: url(../img/monkaa_bluemonkey.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px 20px 20px 20px;
-}
+
 nav ul li {
     display: inline;
     border: solid 1px black;
     padding: 5px; 
-}
-
-footer {
-    background: beige;
 }
 
 section {
@@ -74,4 +105,8 @@ section#watch {
 
 section#listen {
     background: beige;
+}
+
+p {
+    font-size: medium;
 }
